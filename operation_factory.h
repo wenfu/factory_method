@@ -1,10 +1,10 @@
 #ifndef __OPERATION_FACTORY_H
 #define __OPERATION_FACTORY_H
 
-#include "operationAdd.h"
-#include "operationSub.h"
-#include "operationMul.h"
-#include "operationDiv.h"
+#include "operation_add.h"
+#include "operation_sub.h"
+#include "operation_mul.h"
+#include "operation_div.h"
 #include "common.h"
 
 class OperationFactory

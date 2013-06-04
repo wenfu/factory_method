@@ -1,4 +1,4 @@
-#include "operationSub.h"
+#include "operation_sub.h"
 
 double OperationSub::getResult()
 {

@@ -1,5 +1,5 @@
 #include <cstdlib>
-#include "operationFactory.h"
+#include "operation_factory.h"
 #include "common.h"
 
 int main(int argc, char *argv[])

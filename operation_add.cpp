@@ -1,4 +1,4 @@
-#include "operationAdd.h"
+#include "operation_add.h"
 
 double OperationAdd::getResult()
 {      
