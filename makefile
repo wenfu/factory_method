@@ -12,8 +12,8 @@ EXTRA_CFLAGS 	=
 EXTRA_LDFLAGS   =
 INCLUDE   		= -I$(PWD) 
 CPPFLAGS  		= -Wall $(INCLUDE)  -D_LINUX
-LDFLAGS   		= -ldl -lcrypt -lpthread -lrt
-SRCDIRS   		:= 
+LDFLAGS   		= -ldl  -lpthread #-lrt -lcrypt 
+SRCDIRS   		:= ./
 PROGRAM 		= factory
 
 SRCEXTS 		= .cpp
