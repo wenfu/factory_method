@@ -1,7 +1,6 @@
 #include "operation_factory.h"
 
-Operation *OperationFactory::createOperation(char operate)
-{
+Operation *OperationFactory::createOperation(char operate) {
 	switch(operate) {
 	case '+':
 		oper = new OperationAdd();

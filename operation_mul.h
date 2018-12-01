@@ -3,9 +3,9 @@
 
 #include "operation.h"
 
-class OperationMul:public Operation
-{
+class OperationMul:public Operation {
 public:
 	virtual double getResult();
 };
+
 #endif

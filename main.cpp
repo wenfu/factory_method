@@ -2,8 +2,7 @@
 #include "operation_factory.h"
 #include "common.h"
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
 	OperationFactory op;
 	Operation *oper;
 	oper = op.createOperation('+');

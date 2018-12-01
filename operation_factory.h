@@ -7,11 +7,11 @@
 #include "operation_div.h"
 #include "common.h"
 
-class OperationFactory
-{
+class OperationFactory {
 public:
 	Operation *createOperation(char operate);
 private:
 	Operation *oper;
 };
+
 #endif
